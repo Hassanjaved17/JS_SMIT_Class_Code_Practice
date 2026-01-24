@@ -123,15 +123,22 @@ console.log("server is running");
 
 // Js Objects 
 
-let student ={
-    name: "hassan",
-    age: 25,
-    city: "karachi",
-    isMarried: false,
-}
+// let student ={
+//     name: "hassan",
+//     age: 25,
+//     city: "karachi",
+//     isMarried: false,
+// }
 
-// accessing object properties
-console.log(student.name);
-student.address = "abc street";
-console.log(student)
+// // accessing object properties
+// console.log(student.name);
+// student.address = "abc street";
+// console.log(student)
 
+// Adding properties to object
+// let person ={ }
+
+// person.name = "ali";
+// person.age = 30;
+// person.city = "lahore"; 
+// console.log("person=>",person);
