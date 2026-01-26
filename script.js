@@ -16,7 +16,7 @@ console.log("server is running");
 // ];
 
 
-    // console.log("twoDArray",twoDArray);
+// console.log("twoDArray",twoDArray);
 
 // ------practice end-----------
 
@@ -143,11 +143,33 @@ console.log("server is running");
 // person.city = "lahore"; 
 // console.log("person=>",person);
 
-function innerFunction(){
- console.log("Hassan");   
-}
-function outerFunction(lastName){
-    console.log(lastName)
-}
-outerFunction("Ahmed");
-  
+//  practice higher order functions
+// function innerFunction(){
+//  console.log("Hassan");   
+// }
+// function outerFunction(lastName){
+//     console.log(lastName)
+// }
+// outerFunction("Ahmed");
+
+// function greet(uname) {
+//     return `Hello ${uname}`;
+// }
+// // processUser is a higher-order function   
+// function processUser(fn) {
+//     return fn("Hassan");
+// }
+// console.log(processUser(greet));
+
+// const numbers = [1, 2, 3, 4, 5];
+// // Using map to create a new array with each number squared
+// const squares = numbers.map(num => num * num);
+// console.log(squares);
+
+// Output: [1, 4, 9, 16, 25]
+
+// Using filter to create a new array with only even numbers
+// const evens = numbers.filter(num => num % 2 === 0);
+// console.log(evens);
+
+// Output: [2, 4]
