@@ -142,3 +142,12 @@ console.log("server is running");
 // person.age = 30;
 // person.city = "lahore"; 
 // console.log("person=>",person);
+
+function innerFunction(){
+ console.log("Hassan");   
+}
+function outerFunction(lastName){
+    console.log(lastName)
+}
+outerFunction("Ahmed");
+  
