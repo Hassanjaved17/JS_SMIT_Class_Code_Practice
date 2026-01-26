@@ -168,8 +168,16 @@ console.log("server is running");
 
 // Output: [1, 4, 9, 16, 25]
 
+// Using map to create a new array with languages in uppercase
+// const lang = ["python","ruby","java"]
+
+// const sort = lang.map(lang => lang.toUpperCase());
+// console.log(sort);
+
 // Using filter to create a new array with only even numbers
 // const evens = numbers.filter(num => num % 2 === 0);
 // console.log(evens);
 
 // Output: [2, 4]
+ 
+ 
