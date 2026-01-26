@@ -177,7 +177,17 @@ console.log("server is running");
 // Using filter to create a new array with only even numbers
 // const evens = numbers.filter(num => num % 2 === 0);
 // console.log(evens);
-
 // Output: [2, 4]
- 
- 
+
+//  suing reduce  to remove the duplicate items from array 
+const techs = ["HTML", "React", "CSS", "React", "JS"];
+
+const removeDuplicate = techs.filter(
+    (item, index) => techs.indexOf(item) === index
+);
+
+console.log(removeDuplicate);
+// ["HTML", "React", "CSS", "JS"]
+console.log("err not found");
+
+
