@@ -211,8 +211,10 @@ console.log("server is running");
 // const numbers = [1, 2, 3, 4, 5];
 // const max = numbers.reduce((acc, curr) => (curr > acc ? curr : acc), numbers[0]);
 // console.log(max); // Output: 5
- 
 
-
-
-
+// forEach method practice
+const num = [10, 20, 30, 40, 50];
+num.forEach((value, index) => {
+    console.log("value", value);
+    console.log("index", index);
+});
