@@ -192,14 +192,26 @@ console.log("server is running");
 
 // Higher Order Function practice
 // A Higher-Order Function is a function that takes another function as an argument or returns a function.
-function fun() {
-console.log("Hello, World!")
-}
-function fun2(action){
-action();
-action();
-}
-fun2(fun);
+// function fun() {
+// console.log("Hello, World!")
+// }
+// function fun2(action){
+// action();
+// action();
+// }
+// fun2(fun);
+
+// // Reduce method practice
+// const numbers = [1, 2, 3, 4, 5];
+// // Using reduce to calculate the sum of all numbers in the array
+// const sum = numbers.reduce((acc, curr) => acc + curr, 0);
+// console.log(sum); // Output: 15
+
+// Using reduce to find the maximum number in the array
+// const numbers = [1, 2, 3, 4, 5];
+// const max = numbers.reduce((acc, curr) => (curr > acc ? curr : acc), numbers[0]);
+// console.log(max); // Output: 5
+ 
 
 
 
