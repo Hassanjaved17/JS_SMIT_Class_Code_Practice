@@ -180,14 +180,27 @@ console.log("server is running");
 // Output: [2, 4]
 
 //  suing reduce  to remove the duplicate items from array 
-const techs = ["HTML", "React", "CSS", "React", "JS"];
+// const techs = ["HTML", "React", "CSS", "React", "JS"];
 
-const removeDuplicate = techs.filter(
-    (item, index) => techs.indexOf(item) === index
-);
+// const removeDuplicate = techs.filter(
+//         (item, index) => techs.indexOf(item) === index
+//     );
 
-console.log(removeDuplicate);
-// ["HTML", "React", "CSS", "JS"]
-console.log("err not found");
+// console.log(removeDuplicate);
+// // ["HTML", "React", "CSS", "JS"]
+// console.log("err not found");
+
+// Higher Order Function practice
+// A Higher-Order Function is a function that takes another function as an argument or returns a function.
+function fun() {
+console.log("Hello, World!")
+}
+function fun2(action){
+action();
+action();
+}
+fun2(fun);
+
+
 
 
