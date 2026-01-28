@@ -225,6 +225,7 @@ console.log("server is running");
 //  console.log("evenNumber",evenNumber);
 
 // Some method practice
- var num = [1,2,3,4,5];
- var hasNeg = num.some((num)=> num < 0);
- console.log("hasNeg",hasNeg);
+//  var num = [1,2,3,4,5];
+//  var hasNeg = num.some((num)=> num < 0);
+//  console.log("hasNeg",hasNeg);
+
