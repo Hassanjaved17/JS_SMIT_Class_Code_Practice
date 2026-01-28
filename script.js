@@ -220,6 +220,11 @@ console.log("server is running");
     // });
 
     // Find method practice
- let fnum = [1,2,3,4,5,6,7,8,9,10];   
- let evenNumber = fnum.find ((num)=> num % 2 === 0);
- console.log("evenNumber",evenNumber);
+//  let fnum = [1,2,3,4,5,6,7,8,9,10];   
+//  let evenNumber = fnum.find ((num)=> num % 2 === 0);
+//  console.log("evenNumber",evenNumber);
+
+// Some method practice
+ var num = [1,2,3,4,5];
+ var hasNeg = num.some((num)=> num < 0);
+ console.log("hasNeg",hasNeg);
