@@ -31,7 +31,7 @@ console.log("server is running");
 
 // if(myNameLenght > 3){
 //     // 0 indicates the index num and 3 indicates Stop before index 3
-// var result = myName.slice(0, 3); 
+// var result = myName.slice(0, 3);
 // console.log(result);
 // }
 
@@ -96,7 +96,7 @@ console.log("server is running");
 // console.log(checkCities)
 
 
-// console.log(checkCities.length,checkCities);    
+// console.log(checkCities.length,checkCities);
 
 // let fruits = ["apple", "banana", "orange", "mango", "grapes"];
 
@@ -121,7 +121,7 @@ console.log("server is running");
 // console.log(fullName);
 
 
-// Js Objects 
+// Js Objects
 
 // let student ={
 //     name: "hassan",
@@ -140,12 +140,12 @@ console.log("server is running");
 
 // person.name = "ali";
 // person.age = 30;
-// person.city = "lahore"; 
+// person.city = "lahore";
 // console.log("person=>",person);
 
 //  practice higher order functions
 // function innerFunction(){
-//  console.log("Hassan");   
+//  console.log("Hassan");
 // }
 // function outerFunction(lastName){
 //     console.log(lastName)
@@ -155,7 +155,7 @@ console.log("server is running");
 // function greet(uname) {
 //     return `Hello ${uname}`;
 // }
-// // processUser is a higher-order function   
+// // processUser is a higher-order function
 // function processUser(fn) {
 //     return fn("Hassan");
 // }
@@ -179,7 +179,7 @@ console.log("server is running");
 // console.log(evens);
 // Output: [2, 4]
 
-//  suing reduce  to remove the duplicate items from array 
+//  suing reduce  to remove the duplicate items from array
 // const techs = ["HTML", "React", "CSS", "React", "JS"];
 
 // const removeDuplicate = techs.filter(
@@ -220,7 +220,7 @@ console.log("server is running");
 // });
 
 // Find method practice
-//  let fnum = [1,2,3,4,5,6,7,8,9,10];   
+//  let fnum = [1,2,3,4,5,6,7,8,9,10];
 //  let evenNumber = fnum.find ((num)=> num % 2 === 0);
 //  console.log("evenNumber",evenNumber);
 
@@ -231,6 +231,39 @@ console.log("server is running");
 
 // Every method practice
 // The every function checks if all array elements satisfy a condition.
-var n = [1, 2, 3, 4, 5];
-var allPos = n.every((num)=> num > 0);
-console.log("allPos", allPos);
+// var n = [1, 2, 3, 4, 5];
+// var allPos = n.every((num)=> num > 0);
+// console.log("allPos", allPos);
+
+// Advanced Techniques with Higher Order Functions
+// 1. Function Composition.
+// Function composition is the process of combining multiple functions to create a new function. The composed function applies multiple operations in sequence.
+
+function add(x){
+    return x + 2;
+}
+function multiply(x){
+    return x * 3;
+}
+
+function compose(f, g){
+    return function(x){
+        return f(g(x));
+    }   
+}
+var res = compose(multiply, add)(4);
+console.log(res);
+// Output: 15 ( (x + 2) * 3 when x = 1 )(1);
+
+// 2. Currying
+// Currying is a technique of transforming a function that takes multiple arguments into a sequence of functions that each take a single argument.  
+function curryAdd(x){
+    return function(y){
+
+        return x + y;
+    }       
+}
+var add5 = curryAdd(5);
+console.log(add5(3)); // Output: 8 (5 + 3)  
+console.log(curryAdd(2)(4)); // Output: 6 (2 + 4)
+
