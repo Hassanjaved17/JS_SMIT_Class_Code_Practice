@@ -213,13 +213,13 @@ console.log("server is running");
 // console.log(max); // Output: 5
 
 // forEach method practice
-    // const num = [10, 20, 30, 40, 50];
-    // num.forEach((value, index) => {
-    //     console.log("value", value);
-    //     console.log("index", index);
-    // });
+// const num = [10, 20, 30, 40, 50];
+// num.forEach((value, index) => {
+//     console.log("value", value);
+//     console.log("index", index);
+// });
 
-    // Find method practice
+// Find method practice
 //  let fnum = [1,2,3,4,5,6,7,8,9,10];   
 //  let evenNumber = fnum.find ((num)=> num % 2 === 0);
 //  console.log("evenNumber",evenNumber);
@@ -229,3 +229,8 @@ console.log("server is running");
 //  var hasNeg = num.some((num)=> num < 0);
 //  console.log("hasNeg",hasNeg);
 
+// Every method practice
+// The every function checks if all array elements satisfy a condition.
+var n = [1, 2, 3, 4, 5];
+var allPos = n.every((num)=> num > 0);
+console.log("allPos", allPos);
