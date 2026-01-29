@@ -239,31 +239,47 @@ console.log("server is running");
 // 1. Function Composition.
 // Function composition is the process of combining multiple functions to create a new function. The composed function applies multiple operations in sequence.
 
-function add(x){
-    return x + 2;
-}
-function multiply(x){
-    return x * 3;
-}
+// function add(x){
+//     return x + 2;
+// }
+// function multiply(x){
+//     return x * 3;
+// }
 
-function compose(f, g){
-    return function(x){
-        return f(g(x));
-    }   
-}
-var res = compose(multiply, add)(4);
-console.log(res);
+// function compose(f, g){
+//     return function(x){
+//         return f(g(x));
+//     }
+// }
+// var res = compose(multiply, add)(4);
+// console.log(res);
 // Output: 15 ( (x + 2) * 3 when x = 1 )(1);
 
 // 2. Currying
-// Currying is a technique of transforming a function that takes multiple arguments into a sequence of functions that each take a single argument.  
-function curryAdd(x){
-    return function(y){
+// Currying is a technique of transforming a function that takes multiple arguments into a sequence of functions that each take a single argument.
+// function curryAdd(x){
+//     return function(y){
 
-        return x + y;
-    }       
-}
-var add5 = curryAdd(5);
-console.log(add5(3)); // Output: 8 (5 + 3)  
-console.log(curryAdd(2)(4)); // Output: 6 (2 + 4)
+//         return x + y;
+//     }
+// }
+// var add5 = curryAdd(5);
+// console.log(add5(3)); // Output: 8 (5 + 3)
+// console.log(curryAdd(2)(4)); // Output: 6 (2 + 4)
+
+//  3. Using for...of Loop
+// The for...of loop is used to iterate over iterable objects like arrays, strings, maps, sets, etc.
+// var arr = [1, 2, 3, 4, 5];
+// for (const num of arr) {
+//     console.log(num);
+// }
+
+// //  4. Using Spread Operator
+// // The spread operator (...) allows an iterable such as an array or string to be expanded in places where zero or more arguments or elements are expected.
+// var arr1 = [1, 2, 3];
+// var arr2 = [4, 5, 6];
+// var combined = [...arr1, ...arr2];
+// console.log(combined); // Output: [1, 2, 3, 4, 5, 6]
+
+
 
