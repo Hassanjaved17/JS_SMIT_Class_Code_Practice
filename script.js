@@ -281,5 +281,19 @@ console.log("server is running");
 // var combined = [...arr1, ...arr2];
 // console.log(combined); // Output: [1, 2, 3, 4, 5, 6]
 
+// Fetch API practice
+// fetch('https://dummyjson.com/test')
+//     .then(res => res.json())
+//     .then(console.log);
+
+// fetch('https://fakestoreapi.com/products/1')
+//     .then(res => res.json())
+//     .then(json => console.log(json))
+
+// DOM Manipulation practice
+// function cli(){
+//     alert("Button clicked!");
+    
+// }
 
 
