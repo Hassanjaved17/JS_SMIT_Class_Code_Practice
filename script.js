@@ -296,4 +296,7 @@ console.log("server is running");
     
 // }
 
-
+function greet(website){ 
+    alert(`Hello, welcome to our ${website} website!`);
+}
+greet("JS SMIT Class");
