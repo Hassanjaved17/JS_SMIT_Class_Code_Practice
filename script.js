@@ -317,10 +317,17 @@ console.log("server is running");
 // greeting("Hassan"); // "Hassan" is the argument passed to the function
 
 //  Example 2
-var makeJuice = (fruit) => { 
-console.log(`Making juice from ${fruit}`);
-}
-makeJuice("Mango");
-makeJuice("Orange");
-makeJuice("Banana");    
+// var makeJuice = (fruit) => { 
+// console.log(`Making juice from ${fruit}`);
+// // }
+// // makeJuice("Mango");
+// // makeJuice("Orange");
+// // makeJuice("Banana");    
 // "Mango", "Orange", and "Banana" are the arguments passed to the function
+
+// Example 3        
+function add(a, b) { // a and b are parameters
+    return a + b;
+}   
+var sum = add(5, 10); // 5 and 10 are arguments
+console.log(sum); // Output: 15 
