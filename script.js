@@ -296,7 +296,14 @@ console.log("server is running");
     
 // }
 
-function greet(website){ 
-    alert(`Hello, welcome to our ${website} website!`);
+// function greet(website){ 
+//     alert(`Hello, welcome to our ${website} website!`);
+// }
+// greet("JS SMIT Class");
+
+function practice(){
+for(let i =0; i<=5; i++){
+    console.log(i);
 }
-greet("JS SMIT Class");
+}
+practice();
