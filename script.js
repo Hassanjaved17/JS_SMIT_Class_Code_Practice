@@ -310,7 +310,17 @@ console.log("server is running");
 
 // Diffence between Parameter and Argument
 // A parameter is a variable in a function definition that acts as a placeholder for the value that will be passed to the function when it is called. An argument, on the other hand, is the actual value that is passed to the function when it is invoked.
-function greeting(name){
-    console.log(`Hello, ${name} ! Welcome to our website.`);
+// Example 1
+// function greeting(name){
+//     console.log(`Hello, ${name} ! Welcome to our website.`);
+// }
+// greeting("Hassan"); // "Hassan" is the argument passed to the function
+
+//  Example 2
+var makeJuice = (fruit) => { 
+console.log(`Making juice from ${fruit}`);
 }
-greeting("Hassan"); // "Hassan" is the argument passed to the function
+makeJuice("Mango");
+makeJuice("Orange");
+makeJuice("Banana");    
+// "Mango", "Orange", and "Banana" are the arguments passed to the function
