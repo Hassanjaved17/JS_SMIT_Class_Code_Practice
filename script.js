@@ -293,7 +293,7 @@ console.log("server is running");
 // DOM Manipulation practice
 // function cli(){
 //     alert("Button clicked!");
-    
+
 // }
 
 // function greet(website){ 
@@ -326,8 +326,49 @@ console.log("server is running");
 // "Mango", "Orange", and "Banana" are the arguments passed to the function
 
 // Example 3        
-function add(a, b) { // a and b are parameters
-    return a + b;
-}   
-var sum = add(5, 10); // 5 and 10 are arguments
-console.log(sum); // Output: 15 
+// function add(a, b) { // a and b are parameters
+//     return a + b;
+// }   
+// var sum = add(5, 10); // 5 and 10 are arguments
+// console.log(sum); // Output: 15 
+
+// alert("Hassan You have done great job!");
+// // Higher Order Function Map method practice again
+// // The map method creates a new array populated with the results of calling a provided function on every element in the calling array.
+// var num = [1, 2, 3]
+// var newNum = num.map((n) => n * n);
+// console.log("newNum", newNum);
+// Output: newNum [1, 4, 9]
+
+//  Filter method practice again 
+// The filter method creates a new array with all elements that pass the test implemented by the provided function.
+// var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// var evenNumbers = numbers.filter((n) => n % 2 === 0);
+// console.log("evenNumbers", evenNumbers);
+// Output: evenNumbers [2, 4, 6, 8, 10]
+
+// Reduce method practice again
+//  A reduce method executes a reducer function on each element of the array, resulting in a single output value.
+// var nums = [1, 2, 3, 4, 5];
+// var sum = nums.reduce((acc, curr) => acc + curr, 0);
+// console.log("sum", sum);
+// Output: sum 15   
+
+// forEach method practice again
+// The forEach method executes a provided function once for each array element.
+// var fNumbers = [10, 20, 30, 40, 50];
+// fNumbers.forEach((value, index) => {
+//     console.log("value", value);
+//     console.log("index", index);
+// });
+// Filter method with console log practice
+var fNumbers = [10,20,30,40,50,60,70,80,90,100];
+var newNumber = fNumbers.filter((value, index) => {
+    console.log("value", value);
+    console.log("index", index);
+    return value > 50;
+});
+
+
+
+
