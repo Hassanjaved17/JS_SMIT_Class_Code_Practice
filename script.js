@@ -362,13 +362,21 @@ console.log("server is running");
 //     console.log("index", index);
 // });
 // Filter method with console log practice
-var fNumbers = [10,20,30,40,50,60,70,80,90,100];
-var newNumber = fNumbers.filter((value, index) => {
-    console.log("value", value);
-    console.log("index", index);
-    return value > 50;
-});
+// var fNumbers = [10,20,30,40,50,60,70,80,90,100];
+// var newNumber = fNumbers.filter((value, index) => {
+//     console.log("value", value);
+//     console.log("index", index);
+//     return value > 50;
+// });
 
-
-
-
+// Call method practice
+// The call() method is a built-in JavaScript function that allows you to call a function with a specified this value and arguments provided individually. It is used to invoke a function and explicitly set the this context for that function.
+var newObj = {
+    stdData: function(message){
+        console.log(message + this.name);
+    }
+}
+var std ={
+    name: "Hassan",
+}
+var result = newObj.stdData.call(std, "Hello ");
