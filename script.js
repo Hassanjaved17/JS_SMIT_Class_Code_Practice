@@ -373,10 +373,12 @@ console.log("server is running");
 // The call() method is a built-in JavaScript function that allows you to call a function with a specified this value and arguments provided individually. It is used to invoke a function and explicitly set the this context for that function.
 var newObj = {
     stdData: function(message){
-        console.log(message + this.name);
+        console.log(message + this.name, this.age);
     }
 }
 var std ={
     name: "Hassan",
+    age: 20
 }
 var result = newObj.stdData.call(std, "Hello ");
+// Output: Hello Hassan 20
