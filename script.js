@@ -371,14 +371,23 @@ console.log("server is running");
 
 // Call method practice
 // The call() method is a built-in JavaScript function that allows you to call a function with a specified this value and arguments provided individually. It is used to invoke a function and explicitly set the this context for that function.
-var newObj = {
-    stdData: function(message){
-        console.log(message + this.name, this.age);
-    }
-}
-var std ={
-    name: "Hassan",
-    age: 20
-}
-var result = newObj.stdData.call(std, "Hello ");
+// var newObj = {
+//     stdData: function(message){
+//         console.log(message + this.name, this.age);
+//     }
+// }
+// var std ={
+//     name: "Hassan",
+//     age: 20
+// }
+// var result = newObj.stdData.call(std, "Hello ");
 // Output: Hello Hassan 20
+
+// Apply method practice
+// The apply() method is a built-in JavaScript function that allows you to call a function with a specified this value and arguments provided as an array (or an array-like object). It is similar to the call() method, but instead of passing arguments individually, you pass them as an array.
+
+// IIFE (Immediately Invoked Fuction Expression)
+(function (){
+    console.log("IIFE function")
+})()
+
