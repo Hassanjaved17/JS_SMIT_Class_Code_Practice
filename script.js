@@ -387,7 +387,11 @@ console.log("server is running");
 // The apply() method is a built-in JavaScript function that allows you to call a function with a specified this value and arguments provided as an array (or an array-like object). It is similar to the call() method, but instead of passing arguments individually, you pass them as an array.
 
 // IIFE (Immediately Invoked Fuction Expression)
-(function (){
-    console.log("IIFE function")
-})()
-
+// An IIFE function is defined and executed at the same time.
+// (function (){
+//     console.log("IIFE function")
+// })()
+// 
+(function (name){
+console.log(`hello ${name}` )
+})("hassan"); 
