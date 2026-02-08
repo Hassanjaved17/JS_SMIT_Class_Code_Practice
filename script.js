@@ -296,7 +296,7 @@ console.log("server is running");
 
 // }
 
-// function greet(website){ 
+// function greet(website){
 //     alert(`Hello, welcome to our ${website} website!`);
 // }
 // greet("JS SMIT Class");
@@ -317,20 +317,20 @@ console.log("server is running");
 // greeting("Hassan"); // "Hassan" is the argument passed to the function
 
 //  Example 2
-// var makeJuice = (fruit) => { 
+// var makeJuice = (fruit) => {
 // console.log(`Making juice from ${fruit}`);
 // // }
 // // makeJuice("Mango");
 // // makeJuice("Orange");
-// // makeJuice("Banana");    
+// // makeJuice("Banana");
 // "Mango", "Orange", and "Banana" are the arguments passed to the function
 
-// Example 3        
+// Example 3
 // function add(a, b) { // a and b are parameters
 //     return a + b;
-// }   
+// }
 // var sum = add(5, 10); // 5 and 10 are arguments
-// console.log(sum); // Output: 15 
+// console.log(sum); // Output: 15
 
 // alert("Hassan You have done great job!");
 // // Higher Order Function Map method practice again
@@ -340,7 +340,7 @@ console.log("server is running");
 // console.log("newNum", newNum);
 // Output: newNum [1, 4, 9]
 
-//  Filter method practice again 
+//  Filter method practice again
 // The filter method creates a new array with all elements that pass the test implemented by the provided function.
 // var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // var evenNumbers = numbers.filter((n) => n % 2 === 0);
@@ -352,7 +352,7 @@ console.log("server is running");
 // var nums = [1, 2, 3, 4, 5];
 // var sum = nums.reduce((acc, curr) => acc + curr, 0);
 // console.log("sum", sum);
-// Output: sum 15   
+// Output: sum 15
 
 // forEach method practice again
 // The forEach method executes a provided function once for each array element.
@@ -391,7 +391,14 @@ console.log("server is running");
 // (function (){
 //     console.log("IIFE function")
 // })()
-// 
-(function (name){
-console.log(`hello ${name}` )
-})("hassan"); 
+//
+
+// (function (name) {
+//     console.log(`hello ${name}`)
+// })("hassan");
+
+
+// (function () {
+//     let hidden = 20;
+// })()
+// let result = hidden; output: Error: hidden is not defined
