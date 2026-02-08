@@ -407,15 +407,26 @@ console.log("server is running");
 // You can only self-invoke a function expression.
 // You can not self-invoke a function declaration.
 
-// IIFE With Return Value
- let result = (function (){
-    return 5 + 5;
- })();
- console.log("result=>",result);
+// // IIFE With Return Value
+//  let result = (function (){
+//     return 5 + 5;
+//  })();
+//  console.log("result=>",result);
 
-// Arrow Function IIFE
-var name = "Hassan";
-(()=>{
-    let text = "Hello " + name + " Nice To Meet You";
-    console.log(text);
-})();
+// // Arrow Function IIFE
+// var name = "Hassan";
+// (()=>{
+//     let text = "Hello " + name + " Nice To Meet You";
+//     console.log(text);
+// })();
+
+
+//  Interview Tip (Important)
+// Variables declared inside a function are not accessible outside unless returned.
+// JS Function Definitions
+function myFunction (x,y){
+ return x * y;
+}
+var result = myFunction(7,8);
+console.log(result);
+
