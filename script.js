@@ -402,3 +402,20 @@ console.log("server is running");
 //     let hidden = 20;
 // })()
 // let result = hidden; output: Error: hidden is not defined
+
+//POINTS TO BE NOTED
+// You can only self-invoke a function expression.
+// You can not self-invoke a function declaration.
+
+// IIFE With Return Value
+ let result = (function (){
+    return 5 + 5;
+ })();
+ console.log("result=>",result);
+
+// Arrow Function IIFE
+var name = "Hassan";
+(()=>{
+    let text = "Hello " + name + " Nice To Meet You";
+    console.log(text);
+})();
