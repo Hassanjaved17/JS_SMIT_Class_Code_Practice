@@ -424,9 +424,11 @@ console.log("server is running");
 //  Interview Tip (Important)
 // Variables declared inside a function are not accessible outside unless returned.
 // JS Function Definitions
-function myFunction (x,y){
- return x * y;
-}
-var result = myFunction(7,8);
-console.log(result);
+// function myFunction (x,y){
+//  return x * y;
+// }
+// var result = myFunction(7,8);
+// console.log(result);
+
+ 
 
