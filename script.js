@@ -434,16 +434,37 @@ console.log("server is running");
 // Clousers in JS
 //  Clousers are functions that have access to variables defined in the parent scope, even after the parent function has finished executing.    
 //  The inner function has access to the variables and functions defined in the outer function, even after the outer function has finished executing.
-function outer() {
-    var uname = "Hassan";
+// function outer() {
+//     var uname = "Hassan";
 
-    function inner() {
-        console.log(uname);
+//     function inner() {
+//         console.log(uname);
+//     }
+//     return uname;
+// }
+// var myName = outer();
+// console.log(myName);
+
+// Today's Class Tasks
+//(1) Write a program to print even numbers from an array var arr =[1,2,3,4,5,6,7];
+var arr = [1, 2, 3, 4, 5, 6, 7,];
+var evenNumbers = arr.filter((n) => n % 2 === 0);
+console.log(evenNumbers);
+
+// (2) write a program in which user can print userName and age from an object using method (userBio()). and the result will be(my name is Hassan and I am 20 years old)
+
+var user = {
+    name: "Hassan",
+    age: 20,
+    userBio: function () {
+        console.log(`my name is ${this.name} and I am ${this.age} years old`);
     }
-    return uname;
 }
-var myName = outer();
-console.log(myName);
+user.userBio();
+
+// (3) write a program in which user can print list items in html (list will create in js file).
+ 
+
 
 
 
