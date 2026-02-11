@@ -430,5 +430,22 @@ console.log("server is running");
 // var result = myFunction(7,8);
 // console.log(result);
 
- 
+
+// Clousers in JS
+//  Clousers are functions that have access to variables defined in the parent scope, even after the parent function has finished executing.    
+//  The inner function has access to the variables and functions defined in the outer function, even after the outer function has finished executing.
+function outer() {
+    var uname = "Hassan";
+
+    function inner() {
+        console.log(uname);
+    }
+    return uname;
+}
+var myName = outer();
+console.log(myName);
+
+
+
+
 
