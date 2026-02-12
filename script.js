@@ -447,23 +447,64 @@ console.log("server is running");
 
 // Today's Class Tasks
 //(1) Write a program to print even numbers from an array var arr =[1,2,3,4,5,6,7];
-var arr = [1, 2, 3, 4, 5, 6, 7,];
-var evenNumbers = arr.filter((n) => n % 2 === 0);
-console.log(evenNumbers);
+// var arr = [1, 2, 3, 4, 5, 6, 7,];
+// var evenNumbers = arr.filter((n) => n % 2 === 0);
+// console.log(evenNumbers);
 
-// (2) write a program in which user can print userName and age from an object using method (userBio()). and the result will be(my name is Hassan and I am 20 years old)
+// // (2) write a program in which user can print userName and age from an object using method (userBio()). and the result will be(my name is Hassan and I am 20 years old)
 
-var user = {
-    name: "Hassan",
-    age: 20,
-    userBio: function () {
-        console.log(`my name is ${this.name} and I am ${this.age} years old`);
-    }
-}
-user.userBio();
+// var user = {
+//     name: "Hassan",
+//     age: 20,
+//     userBio: function () {
+//         console.log(`my name is ${this.name} and I am ${this.age} years old`);
+//     }
+// }
+// user.userBio();
 
 // (3) write a program in which user can print list items in html (list will create in js file).
- 
+
+// function addItem() {
+//     let input = document.getElementById("itemInput");
+//     let ul = document.getElementById("myList");
+//     let li = document.createElement("li");
+//     li.textContent = input.value;
+//     ul.appendChild(li);
+//     input.value = "";
+// }
+
+// (4) write a program in which user can print data in html and data should still render arter refresh browser (list will create in js file).
+
+let items = JSON.parse(localStorage.getItem("items") || "[]");
+function renderItems() {
+    let list = document.getElementById("itemList");
+    list.innerHTML = "";
+
+    items.forEach(function (item) {
+        let li = document.createElement("li");
+        li.textContext = item;
+        list.appendChild(li);
+    });
+};
+
+
+function addItem() {
+    let input = document.getElementById("itemInput");
+    let value = input.value.trim();
+
+    if (value === "") return;
+
+    items.push(value);
+
+    // Save to localStorage
+    localStorage.setItem("myItems", JSON.stringify(items));
+
+    input.value = "";
+    renderItems();
+}
+
+renderItems();
+
 
 
 
