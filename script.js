@@ -475,39 +475,59 @@ console.log("server is running");
 
 // (4) write a program in which user can print data in html and data should still render arter refresh browser (list will create in js file).
 
-let items = JSON.parse(localStorage.getItem("items") || "[]");
-function renderItems() {
-    let list = document.getElementById("itemList");
-    list.innerHTML = "";
+// let items = JSON.parse(localStorage.getItem("items") || "[]");
+// function renderItems() {
+//     let list = document.getElementById("itemList");
+//     list.innerHTML = "";
 
-    items.forEach(function (item) {
-        let li = document.createElement("li");
-        li.textContext = item;
-        list.appendChild(li);
-    });
-};
-
-
-function addItem() {
-    let input = document.getElementById("itemInput");
-    let value = input.value.trim();
-
-    if (value === "") return;
-
-    items.push(value);
-
-    // Save to localStorage
-    localStorage.setItem("myItems", JSON.stringify(items));
-
-    input.value = "";
-    renderItems();
-}
-
-renderItems();
+//     items.forEach(function (item) {
+//         let li = document.createElement("li");
+//         li.textContext = item;
+//         list.appendChild(li);
+//     });
+// };
 
 
+// function addItem() {
+//     let input = document.getElementById("itemInput");
+//     let value = input.value.trim();
 
+//     if (value === "") return;
 
+//     items.push(value);
 
+//     // Save to localStorage
+//     localStorage.setItem("myItems", JSON.stringify(items));
 
+//     input.value = "";
+//     renderItems();
+// }
+// renderItems();
 
+// 13-feb-2026
+// Call Back function practice
+// A callback function is a function that is passed as an argument to another function and is executed within that function.
+// ===== Ex:01 =====  
+// var greet = (uname) =>{
+//     console.log(`Hello ${uname}`);
+// }
+
+// var processUserInput = (callback) =>{
+//     var userName = "Hassan";
+//     callback(userName); // calling the callback
+// }
+
+// processUserInput(greet);
+//==== End ====
+
+//  ==== Ex:02 =====  
+// function add (a,b) {
+// console.log(a + b);
+// }
+// function calculate (x,y, operation) {
+//   operation(x,y);
+// }
+// calculate(5,8, add);
+//==== End ====
+
+//  
