@@ -530,4 +530,66 @@ console.log("server is running");
 // calculate(5,8, add);
 //==== End ====
 
-//  
+//  ==== Ex:03 =====  
+// Annonymous Function
+//   function saySomething (callback){
+//     callback();
+//   }
+//   saySomething(() =>{
+//     console.log("This is a callback!");
+//   });
+// ==== End ====
+
+//  ==== Ex:04 =====
+// That function inside setTimeout is a callback.
+// setTimeout(() =>{
+//     console.log("Hello After 2 Seconds!"); 
+// },2000);
+// ==== End ===
+
+// Practice Set
+// function divide(a, b) {
+//     return a / b;
+// }
+
+// function calculate(x, y, operation) {
+//     let result = operation(x, y);
+//     console.log("Result:", result);
+// }
+
+// calculate(10, 2, divide);
+//  ==== End ===
+
+// Revised Js Basics 
+// var age = prompt("Enter your age");
+//   var testingAge = (age < 18) ? "Minor" : "Adult";
+//   console.log(testingAge);
+
+
+// switch (new Date().getDay()) {
+//   case 0:
+//     day = "Sunday";
+//     break;
+//   case 1:
+//     day = "Monday";
+//     break;
+//   case 2:
+//      day = "Tuesday";
+//     break;
+//   case 3:
+//     day = "Wednesday";
+//     break;
+//   case 4:
+//     day = "Thursday";
+//     break;
+//   case 5:
+//     day = "Friday";
+//     break;
+//   case 6:
+//     day = "Saturday";
+// }
+
+// console.log(`Today is ${day}`);
+  
+
+     
