@@ -591,5 +591,8 @@ console.log("server is running");
 
 // console.log(`Today is ${day}`);
   
+var smm = "Hollah";
+var result = smm.toUpperCase();
+console.log(result);
 
      
