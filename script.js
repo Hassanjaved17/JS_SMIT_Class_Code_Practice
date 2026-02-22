@@ -591,8 +591,12 @@ console.log("server is running");
 
 // console.log(`Today is ${day}`);
   
-var smm = "Hollah";
-var result = smm.toUpperCase();
-console.log(result);
+// var smm = "Hollah";
+// var result = smm.toUpperCase();
+// console.log(result);
 
+//  Slice Method    
+var students =["Ali", "Aslam", "Hassan", "Ahmed"];
+var result = students.slice(1,3);
+console.log(result);
      
