@@ -596,7 +596,9 @@ console.log("server is running");
 // console.log(result);
 
 //  Slice Method    
-var students =["Ali", "Aslam", "Hassan", "Ahmed"];
-var result = students.slice(1,3);
-console.log(result);
+// var students =["Ali", "Aslam", "Hassan", "Ahmed"];
+// var result = students.slice(1,3);
+// console.log(result);
+
+ 
      
