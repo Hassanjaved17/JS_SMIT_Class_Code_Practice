@@ -33,6 +33,8 @@ var twoDArray = [
     [4, 5, 6],
     [7, 8, 9, [2, "g", ["c", 10]]],
 ];
-console.log("twoDArray", twoDArray);
-
+console.log("twoDArray", twoDArray);    
 // practice end
+
+var err = "Error: Something went wrong!";
+console.log(err.toUpperCase()); // ERROR: SOMETHING WENT WRONG! because the toUpperCase() method converts a string to uppercase letters.    
