@@ -37,4 +37,34 @@ console.log("twoDArray", twoDArray);
 // practice end
 
 var err = "Error: Something went wrong!";
-console.log(err.toUpperCase()); // ERROR: SOMETHING WENT WRONG! because the toUpperCase() method converts a string to uppercase letters.    
+console.log(err.toUpperCase()); // ERROR: SOMETHING WENT WRONG! because the toUpperCase() method converts a string to uppercase letters.   
+
+// Data types in js are primitive data types and non-primitive data types. Primitive data types are string, number, boolean, null, undefined and symbol. Non-primitive data types are object, array and function.
+// ============================
+// Primitive Data Types
+// ============================
+// (Numeric Types)
+// *****
+// 1) Number
+// 2) bigint
+// *****
+// (Non-Numeric Types)
+// *****
+// 1) String
+// 2) Boolean
+// 3) Null
+// 4) Undefined
+// 5) Symbol
+// *****
+// ============================
+// Non-Primitive Data Types
+// ============================
+// *****
+// 1) Object
+// 2) Array
+// 3) Function
+// 4) Date Object
+// 5) RegExp Object
+// *****
+// ============================
+ 
