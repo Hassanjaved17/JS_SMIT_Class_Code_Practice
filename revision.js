@@ -12,32 +12,32 @@ console.log("Js is running")
 // x = 20;
 // console.log(x); 
 
-var bolean = true;
-var a = 10;
-var c = a + bolean;
-console.log(c); // 11 because true is treated as 1 in arithmetic operations.
+// var bolean = true;
+// var a = 10;
+// var c = a + bolean;
+// console.log(c); // 11 because true is treated as 1 in arithmetic operations.
 
-var tsunami = "Tsunami is a natural disaster that occurs when there is a sudden and large displacement of water, usually caused by an earthquake, volcanic eruption, or landslide. Tsunamis can cause significant damage to coastal areas and can be deadly if people are not prepared. It is important to have a tsunami evacuation plan in place if you live in a coastal area.";
-console.log(tsunami.length); // 354 because the length property of a string returns the number of characters in the string, including spaces and punctuation.
+// var tsunami = "Tsunami is a natural disaster that occurs when there is a sudden and large displacement of water, usually caused by an earthquake, volcanic eruption, or landslide. Tsunamis can cause significant damage to coastal areas and can be deadly if people are not prepared. It is important to have a tsunami evacuation plan in place if you live in a coastal area.";
+// console.log(tsunami.length); // 354 because the length property of a string returns the number of characters in the string, including spaces and punctuation.
 
 
-// Array practice
-var arr = ["a", "b", 3, 4];
-console.log(arr.length);
-console.log(arr.length - 1);
-console.log("array last element", arr[arr.length - 1]);
+// // Array practice
+// var arr = ["a", "b", 3, 4];
+// console.log(arr.length);
+// console.log(arr.length - 1);
+// console.log("array last element", arr[arr.length - 1]);
 
-// 2D Array
-var twoDArray = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9, [2, "g", ["c", 10]]],
-];
-console.log("twoDArray", twoDArray);    
-// practice end
+// // 2D Array
+// var twoDArray = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9, [2, "g", ["c", 10]]],
+// ];
+// console.log("twoDArray", twoDArray);    
+// // practice end
 
-var err = "Error: Something went wrong!";
-console.log(err.toUpperCase()); // ERROR: SOMETHING WENT WRONG! because the toUpperCase() method converts a string to uppercase letters.   
+// var err = "Error: Something went wrong!";
+// console.log(err.toUpperCase()); // ERROR: SOMETHING WENT WRONG! because the toUpperCase() method converts a string to uppercase letters.   
 
 // Data types in js are primitive data types and non-primitive data types. Primitive data types are string, number, boolean, null, undefined and symbol. Non-primitive data types are object, array and function.
 // ============================
@@ -68,3 +68,7 @@ console.log(err.toUpperCase()); // ERROR: SOMETHING WENT WRONG! because the toUp
 // *****
 // ============================
  
+
+// var name = "hasssan"
+var h1 = document.getElementById("heading").innerHTML.valueOf(h1);
+console.log(h1)
