@@ -71,4 +71,6 @@ console.log("Js is running")
 
 // var name = "hasssan"
 var h1 = document.getElementById("heading").innerHTML.valueOf(h1);
-console.log(h1)
+console.log(h1);
+
+
