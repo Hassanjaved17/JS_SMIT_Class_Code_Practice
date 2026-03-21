@@ -600,5 +600,8 @@ console.log("server is running");
 // var result = students.slice(1,3);
 // console.log(result);
 
- 
+// slice method: A slice method is used to extract a portion of a string or an array and returns it as a new string or array, without modifying the original string or array. The slice method takes two arguments: the starting index and the ending index (exclusive). If the ending index is not provided, it will slice until the end of the string or array.
+//  var username = "Hassan";
+//  var result = username.slice(0,3);
+//  console.log(result);
      
