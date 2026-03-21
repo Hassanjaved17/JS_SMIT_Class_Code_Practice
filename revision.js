@@ -73,6 +73,16 @@ console.log("Js is running")
 // var h1 = document.getElementById("heading").innerHTML.valueOf(h1);
 // console.log(h1);
 
+// 3 ways to access an HTML element in JavaScript are:
+// 1) getElementById: This method is used to access an HTML element by its id attribute. For example, if you have an element with the id "demo", you can access it like this:
+// var element = document.getElementById("demo");
+
+// 2) getElementsByClassName: This method is used to access an HTML element by its class attribute. For example, if you have an element with the class "demo", you can access it like this:
+// var elements = document.getElementsByClassName("demo");
+
+// 3) getElementsByTagName: This method is used to access an HTML element by its tag name. For example, if you have an element with the tag name "p", you can access it like this:
+// var elements = document.getElementsByTagName("p");
+
 // If you want to change the content of an HTML element using JavaScript, you can use the innerHTML property. For example, if you have an element with the id "demo", you can change its content like this:
 document.getElementById("demo").innerHTML = "JavaScript is a programming language that is commonly used to create interactive effects within web browsers. It is a client-side scripting language, which means that it runs on the user's computer rather than on the server. JavaScript can be used to create dynamic web pages, validate forms, create animations, and much more. It is an essential part of modern web development and is supported by all major web browsers."
 
