@@ -605,3 +605,34 @@ console.log("server is running");
 //  var result = username.slice(0,3);
 //  console.log(result);
      
+
+// 28-mar-2026
+
+// OOPs in JS
+// Object-Oriented Programming (OOP) is a programming paradigm that uses objects and classes to structure code. In JavaScript, you can create objects using constructor functions or ES6 classes.
+
+// Constructor Function Example
+// function Person(name, age) {
+//     this.name = name;
+//     this.age = age;
+//     this.greet = function() {
+//         console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+//     }
+// }
+// var person1 = new Person("Hassan", 25);
+// person1.greet(); // Output: Hello, my name is Hassan and I am 25 years old.
+
+// ES6 Class Example
+// class Person {
+//     constructor(name, age) {
+//         this.name = name;
+//         this.age = age;
+//     }
+//     greet() {
+//         console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+//     }
+// }
+// var person1 = new Person("Hassan", 25);
+// person1.greet(); // Output: Hello, my name is Hassan and I am 25 years old.
+
+
