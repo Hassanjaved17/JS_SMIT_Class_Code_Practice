@@ -604,7 +604,8 @@ console.log("server is running");
 //  var username = "Hassan";
 //  var result = username.slice(0,3);
 //  console.log(result);
-     
+
+//======================================================  
 
 // 28-mar-2026
 
@@ -612,19 +613,22 @@ console.log("server is running");
 // Object-Oriented Programming (OOP) is a programming paradigm that uses objects and classes to structure code. In JavaScript, you can create objects using constructor functions or ES6 classes.
 
 // Constructor Function Example
-// function Person(name, age) {
-//     this.name = name;
-//     this.age = age;
-//     this.greet = function() {
-//         console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+// function Person(name, age) { // Constructor function to create a Person object
+//     this.name = name; // Assigning the name parameter to the name property of the object
+//     this.age = age;  // Assigning the age parameter to the age property of the object
+//     this.greet = function() { // Method to greet using the object's properties
+//         console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);  // Using template literals to create a greeting message 
 //     }
 // }
-// var person1 = new Person("Hassan", 25);
-// person1.greet(); // Output: Hello, my name is Hassan and I am 25 years old.
+// var person1 = new Person("Hassan", 20);  // Creating an instance of the Person object
+// person1.greet(); // Output: Hello, my name is Hassan and I am 20 years old.
+
+
+
 
 // ES6 Class Example
 // class Person {
-//     constructor(name, age) {
+//     constructor(name, age) {`
 //         this.name = name;
 //         this.age = age;
 //     }
@@ -634,5 +638,29 @@ console.log("server is running");
 // }
 // var person1 = new Person("Hassan", 25);
 // person1.greet(); // Output: Hello, my name is Hassan and I am 25 years old.
+
+//  Inheritance Example
+class Animal {
+    constructor(name) {
+        this.name = name;
+    }
+    speak() {
+        console.log(`${this.name} makes a sound.`);
+    }
+}
+
+class Dog extends Animal {
+    constructor(name, breed) {
+        super(name); // Call the parent class constructor       
+        this.breed = breed; // Add a new property specific to Dog
+    }
+    speak() {
+        console.log(`${this.name} barks.`); // Override the speak method
+    }
+
+}
+
+var dog1 = new Dog("Buddy", "Golden Retriever");
+dog1.speak(); // Output: Buddy barks.
 
 
