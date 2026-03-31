@@ -54,20 +54,20 @@
 // console.log(decimalPart.length); // Output: 5
 
 // Q10 Date & Time
-var currentDate = new Date();
-console.log(currentDate);
-var currentMonth = currentDate.getMonth() + 1; // Months are zero-based, so we add 1
-console.log(currentMonth); // Output: Current month (1-12)
-var currentDay = currentDate.getDate();
-console.log(currentDay); // Output: Current day of the month (1-31)
-var currentYear = currentDate.getFullYear();
-console.log(currentYear); // Output: Current year (e.g., 2024)
-var currentHour = currentDate.getHours();
-console.log(currentHour); // Output: Current hour (0-23)
-var currentMinute = currentDate.getMinutes();
-console.log(currentMinute); // Output: Current minute (0-59)
-var currentSecond = currentDate.getSeconds();
-console.log(currentSecond); // Output: Current second (0-59)
-var currentMillisecond = currentDate.getMilliseconds();
-console.log(currentMillisecond); // Output: Current millisecond (0-999)
+// var currentDate = new Date();
+// console.log(currentDate);
+// var currentMonth = currentDate.getMonth() + 1; // Months are zero-based, so we add 1
+// console.log(currentMonth); // Output: Current month (1-12)
+// var currentDay = currentDate.getDate();
+// console.log(currentDay); // Output: Current day of the month (1-31)
+// var currentYear = currentDate.getFullYear();
+// console.log(currentYear); // Output: Current year (e.g., 2024)
+// var currentHour = currentDate.getHours();
+// console.log(currentHour); // Output: Current hour (0-23)
+// var currentMinute = currentDate.getMinutes();
+// console.log(currentMinute); // Output: Current minute (0-59)
+// var currentSecond = currentDate.getSeconds();
+// console.log(currentSecond); // Output: Current second (0-59)
+// var currentMillisecond = currentDate.getMilliseconds();
+// console.log(currentMillisecond); // Output: Current millisecond (0-999)
   
