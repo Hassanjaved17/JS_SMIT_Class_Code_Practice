@@ -123,29 +123,29 @@
     // 31-may-26
 //  Class code   
 // Inheritance Example
-class Person{
-    constructor(name){
-        this.name = name;
-    }
+// class Person{
+//     constructor(name){
+//         this.name = name;
+//     }
 
     
-greet(){
-    console.log(`Hello ${this.name}`);
-}
-}
+// greet(){
+//     console.log(`Hello ${this.name}`);
+// }
+// }
 
-class Teacher extends Person{
- constructor(name, subject){
-    super(name);
-    this.subject = subject;
- }
+// class Teacher extends Person{
+//  constructor(name, subject){
+//     super(name);
+//     this.subject = subject;
+//  }
 
- teach(){
-    console.log(`${this.name} is teaching ${this.subject}`);
- }
-}
+//  teach(){
+//     console.log(`${this.name} is teaching ${this.subject}`);
+//  }
+// }
 
-const teacher1 = new Teacher("Hassan", "Math");
-teacher1.greet();
-teacher1.teach();
+// const teacher1 = new Teacher("Hassan", "Math");
+// teacher1.greet();
+// teacher1.teach();
  
