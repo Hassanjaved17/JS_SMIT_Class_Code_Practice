@@ -33,3 +33,23 @@
 // var num2 = 3.2;
 // console.log(Math.round(num1)); // Output: 4
 // console.log(Math.round(num2)); // Output: 3
+
+// Q7 Random Numbers
+// var randomNum = Math.random();
+// console.log(randomNum); // Output: A random number between 0 (inclusive) and 1 (exclusive)
+// var randomNum1to10 = Math.floor(Math.random() * 10) + 1;
+// console.log(randomNum1to10); // Output: A random integer between 1 and 10 (inclusive)
+ 
+// Q8 Conversions
+// var numStr = "123.45";
+// var num = parseFloat(numStr);
+// console.log(num); // Output: 123.45
+// var intStr = "42";
+// var intNum = parseInt(intStr);
+// console.log(intNum); // Output: 42
+ 
+// Q9 Decimal Length
+// var num = 3.14159;
+// var decimalPart = num.toString().split(".")[1];
+// console.log(decimalPart.length); // Output: 5
+
