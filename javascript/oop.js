@@ -87,38 +87,65 @@
 // 30-mar-26
 
 // Polymorphism Example
-class Shape {
-    area() {
-        return 0;
-    }   
-}   
+// class Shape {
+//     area() {
+//         return 0;
+//     }   
+// }   
 
-class Rectangle extends Shape {
-    constructor(width, height) {
-        super();
-        this.width = width;
-        this.height = height;
-    }
-    area() {
-        return this.width * this.height;
-    }
-}
+// class Rectangle extends Shape {
+//     constructor(width, height) {
+//         super();
+//         this.width = width;
+//         this.height = height;
+//     }
+//     area() {
+//         return this.width * this.height;
+//     }
+// }
 
-class Circle extends Shape {
-    constructor(radius) {
-        super();
-        this.radius = radius;
-    }
-    area() {
-        return Math.PI * this.radius * this.radius;
-    }   
-}
+// class Circle extends Shape {
+//     constructor(radius) {
+//         super();
+//         this.radius = radius;
+//     }
+//     area() {
+//         return Math.PI * this.radius * this.radius;
+//     }   
+// }
  
-const rect = new Rectangle(5, 10);
-const circle = new Circle(7);
-console.log(`Area of Rectangle: ${rect.area()}`); // Output: Area of Rectangle: 50
-console.log(`Area of Circle: ${circle.area()}`); // Output: Area of Circle: 153.93804002589985
+// const rect = new Rectangle(5, 10);
+// const circle = new Circle(7);
+// console.log(`Area of Rectangle: ${rect.area()}`); // Output: Area of Rectangle: 50
+// console.log(`Area of Circle: ${circle.area()}`); // Output: Area of Circle: 153.93804002589985
     
    
-    
+    // 31-may-26
+//  Class code   
+// Inheritance Example
+class Person{
+    constructor(name){
+        this.name = name;
+    }
 
+    
+greet(){
+    console.log(`Hello ${this.name}`);
+}
+}
+
+class Teacher extends Person{
+ constructor(name, subject){
+    super(name);
+    this.subject = subject;
+ }
+
+ teach(){
+    console.log(`${this.name} is teaching ${this.subject}`);
+ }
+}
+
+const teacher1 = new Teacher("Hassan", "Math");
+teacher1.greet();
+teacher1.teach();
+ 
