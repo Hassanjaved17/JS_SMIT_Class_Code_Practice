@@ -49,7 +49,7 @@
 // console.log(intNum); // Output: 42
  
 // Q9 Decimal Length
-// var num = 3.14159;
-// var decimalPart = num.toString().split(".")[1];
-// console.log(decimalPart.length); // Output: 5
+var num = 3.14159;
+var decimalPart = num.toString().split(".")[1]; // Split the number into integer and decimal parts
+console.log(decimalPart.length); // Output: 5
 
