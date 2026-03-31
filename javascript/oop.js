@@ -90,7 +90,7 @@
 class Shape {
     area() {
         return 0;
-    }
+    }   
 }   
 
 class Rectangle extends Shape {
