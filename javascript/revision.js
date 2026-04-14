@@ -87,4 +87,6 @@ console.log("Js is running")
 // document.getElementById("demo").innerHTML = "JavaScript is a programming language that is commonly used to create interactive effects within web browsers. It is a client-side scripting language, which means that it runs on the user's computer rather than on the server. JavaScript can be used to create dynamic web pages, validate forms, create animations, and much more. It is an essential part of modern web development and is supported by all major web browsers."
 
 
+
+
    
