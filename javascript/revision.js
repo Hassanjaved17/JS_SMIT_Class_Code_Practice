@@ -86,6 +86,11 @@ console.log("Js is running")
 // If you want to change the content of an HTML element using JavaScript, you can use the innerHTML property. For example, if you have an element with the id "demo", you can change its content like this:
 // document.getElementById("demo").innerHTML = "JavaScript is a programming language that is commonly used to create interactive effects within web browsers. It is a client-side scripting language, which means that it runs on the user's computer rather than on the server. JavaScript can be used to create dynamic web pages, validate forms, create animations, and much more. It is an essential part of modern web development and is supported by all major web browsers."
 
+//  var a = 10;
+//  var b = 20;
+//  var c = a + b;
+//  console.log(c); // 30 because the + operator is used to add two numbers together. In this case, it adds the value of a (10) and the value of b (20) to get the result of 30.    
+
 
 
 
