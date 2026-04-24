@@ -91,6 +91,9 @@ console.log("Js is running")
 //  var c = a + b;
 //  console.log(c); // 30 because the + operator is used to add two numbers together. In this case, it adds the value of a (10) and the value of b (20) to get the result of 30.    
 
+// let x = 10;
+// x = 20;
+// console.log(x); // 20 because the variable x is declared using let, which allows it to be updated. Initially, x is assigned the value of 10, but then it is updated to 20, and when we log x to the console, it outputs 20.
 
 
 
