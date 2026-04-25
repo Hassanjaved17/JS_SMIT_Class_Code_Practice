@@ -95,6 +95,9 @@ console.log("Js is running")
 // x = 20;
 // console.log(x); // 20 because the variable x is declared using let, which allows it to be updated. Initially, x is assigned the value of 10, but then it is updated to 20, and when we log x to the console, it outputs 20.
 
+ var tsunami = "Tsunami is a natural disaster that occurs when there is a sudden and large displacement of water, usually caused by an earthquake, volcanic eruption, or landslide. Tsunamis can cause significant damage to coastal areas and can be deadly if people are not prepared. It is important to have a tsunami evacuation plan in place if you live in a coastal area.";
+ console.log(tsunami.length); // 354 because the length property of a string returns the number of characters in the string, including spaces and punctuation. In this case, the string assigned to the variable tsunami has 354 characters, so tsunami.length returns 354. 
+ 
 
 
    
