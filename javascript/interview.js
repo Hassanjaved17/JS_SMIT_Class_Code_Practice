@@ -31,8 +31,8 @@ console.log("Server Is running");
 // Ans) Hoisting is a JavaScript mechanism where variable and function declarations are moved to the top of their containing scope during the compilation phase. This means that you can use variables and functions before they are declared in the code. However, only the declarations are hoisted, not the initializations.
 
 // example:
- console.log(a); // undefined
-var a = 5;    
+//  console.log(a); // undefined
+// var a = 5;    
  
 // 3. What is the event loop in JavaScript?
 
@@ -41,5 +41,23 @@ var a = 5;
 // 4. What is the difference between == and === in JavaScript?
 
 // Ans) == is the loose equality operator that performs type coercion, while === is the strict equality operator that does not perform type coercion. === checks for both value and type equality, while == only checks for value equality after converting types if necessary.     
+
+// example:
+// 5 == "5"; // true
+// 5 === 5; // true
+
+// 5 What is callBack function in JavaScript?
+
+// Ans) A callback function is a function that is passed as an argument to another function and is executed after some operation has been completed. It allows for asynchronous programming and helps to avoid blocking the main thread.
+
+// example:
+function greet(name, callback){ // callback function is passed as an argument
+    console.log("Hello " + name);
+    callback();
+}
+greet("Alice", function(){ // This is the callback function that will be executed after the greeting is printed
+    console.log("This is a callback function.");
+}
+);
 
   
