@@ -32,7 +32,7 @@ console.log("Server Is running");
 
 // example:
  console.log(a); // undefined
-var a = 5;
+var a = 5;    
  
 // 3. What is the event loop in JavaScript?
 
