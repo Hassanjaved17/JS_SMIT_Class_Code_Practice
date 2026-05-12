@@ -42,4 +42,4 @@ var a = 5;
 
 // Ans) == is the loose equality operator that performs type coercion, while === is the strict equality operator that does not perform type coercion. === checks for both value and type equality, while == only checks for value equality after converting types if necessary.     
 
- 
+  
